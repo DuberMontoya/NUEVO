@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hamburguer, #close{
+    display: none;
+}
+#container{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    justify-content: space-between;
+}
+header{
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-column: 1/ span 2;
+    justify-content: space-between;
+}
+header #menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu{
+    list-style: none;
+}
+#menu li a{
+    text-decoration: none;
+    color: rgb(172, 170, 170);
+}
+#menu li a:hover{
+    color: #eaae54;
+}
+#content{
+    grid-column: 1/ span 2;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    justify-content: space-between;
+}
+#banner{
+    width: 100%;
+}
+#banner #img-mobile{
+    display: none;
+}
+#banner #img-desktop{
+    width: 100%;
+}
+#textos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#textos > p{
+    width: 42%;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+}
+#textos #descripcion{
+    width: 50%;
+}
+#descripcion > p{
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+#descripcion button{
+    background-color: #D95449;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 15px 27px;
+    border: none;
+}
+#descripcion button:hover{
+    background-color: #00001a;
+}
+#content aside{
+    width: 89%;
+    background-color: #00001a;
+    color: rgb(172, 170, 170);
+    padding: 26px;
+}
+#content aside h1{
+    color: #eaae54;
+    margin: 20px 0;
+    font-size: 50px;
+}
+.card{
+    padding: 30px 0;
+}
+.bordo{
+    border-top: 1px solid  rgb(172, 170, 170);;
+    border-bottom: 1px solid  rgb(172, 170, 170);;
+}
+#content .card h3 a{
+    text-decoration: none;
+    color: white;
+    
+}
+#content .card h3 a:hover{
+    color: #eaae54;
+}
+#content .card h3{
+    margin: 15px 0;
+}
+footer{
+    display: grid;
+    grid-column: 1/ span 2;
+    grid-template-columns: 30% 30% 30%;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+footer .footer-card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer-card #img-footer{
+    width: 26%;
+}
+.footer-card #text{
+    width: 60%;
+}
+.footer-card #text h2{
+    color: #ccc;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.footer-card #text h5{
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+.footer-card #text p{
+    font-size: 15px;
+    line-height: 2.5;
+}
+.footer-card #img-footer img{
+    width: 100%;
+}
